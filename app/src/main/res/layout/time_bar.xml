@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView
+		android:scaleType="centerInside"
+		android:id="@+id/iv_day_night"
+		android:background="@drawable/datepicker_handle_day"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"/>
+	<TextView
+		android:id="@+id/tv_time"
+		android:gravity="center"
+		android:text="11:30"
+		android:layout_height="48dp"
+		android:layout_width="wrap_content"/>
+	<TextView
+		android:id="@+id/tv_icon"
+		android:background="@drawable/spinner_time_yellow"
+		android:layout_height="48dp"
+		android:layout_width="30dp"/>
+	<SeekBar
+		android:thumb="@drawable/time_handle"
+		android:progressDrawable="@drawable/progress_bar_line"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/seekBar"/>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	tools:context=".MainActivity">
+
+
+	<com.flying.xiaopo.evernotepicker.TimeBar
+		android:id="@+id/timeBar"
+		android:layout_gravity="center"
+		app:time_textSize="16sp"
+		app:time_textColor_day="@color/time_bar_day"
+		app:time_textColor_night="@color/time_bar_night"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<Button
+		android:onClick="showTime"
+		android:id="@+id/btn_get_time"
+		android:background="@android:color/transparent"
+		android:text="GETTIME"
+		android:layout_margin="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+</LinearLayout>
